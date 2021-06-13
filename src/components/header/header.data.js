@@ -12,7 +12,7 @@ export default [
     label: 'Testimonials',
   },
   {
-    path: 'news',
-    label: 'News',
+    path: 'blog',
+    label: 'Blog',
   },
 ];

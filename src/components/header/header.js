@@ -35,9 +35,9 @@ export default function Header({ className }) {
           </Flex>
 
           <Link
-            path="/"
+            path="/contact"
             ml={2}
-            label="Register Now"
+            label="Get a Quote"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />

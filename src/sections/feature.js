@@ -82,11 +82,11 @@ const Feature = () => {
     },
   };
   return (
-    <Box sx={styles.features} id="news">
+    <Box sx={styles.features} id="blog">
       <Container>
         <BlockTitle
-          slogan="Quality features"
-          title="Tutorials that people love most"
+          slogan="Quality Articles"
+          title="Articles that people love most"
           styles={styles.blockTitle}
         />
 

@@ -17,7 +17,7 @@ const VideoOne = () => {
     <Box as="section" sx={styles.video}>
       <Container>
         <Heading as="h3">
-          Leading companies trust us <br /> to develop software
+          Leading companies trust us <br /> to develop websites
         </Heading>
         <Text as="p">
           We believe it’s important for everyone to have access to software{' '}
