@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Container, Grid, Button, Input, Heading, Text } from "theme-ui";
-
+import { Link } from "components/link";
 import Image from "components/image";
 
 import img1 from "assets/partner-1-1.png";
@@ -33,9 +33,11 @@ const Banner = () => {
                 placeholder="Subscribe newsletter"
                 sx={styles.form.input}
               />*/}
-              <Button type="submit" sx={styles.form.button}>
-                Let's Talk
-              </Button>
+              <Link path="/contact">
+                <Button type="submit" sx={styles.form.button}>
+                  Let's Talk
+                </Button>
+              </Link>
             </Box>
             {/*<Box sx={styles.partner}>
               <Text as="span">Sponsored by:</Text>
@@ -70,7 +72,6 @@ const styles = {
   },
   container: {
     width: [null, null, null, null, null, null, "1390px"],
-    
   },
   grid: {
     display: "grid",

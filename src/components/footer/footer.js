@@ -8,7 +8,7 @@ import {
   FaFacebookSquare,
   FaGooglePlusSquare,
   FaLinkedin,
-  FaGithubSquare
+  FaGithubSquare,
 } from "react-icons/fa";
 export default function Footer() {
   return (
@@ -35,44 +35,47 @@ export default function Footer() {
           }}
         >
           <Box sx={styles.right}>
-            <Link path="/">
-              <FaLinkedin size={35} />
+             <Link path="https://www.linkedin.com/in/bhaveshchoudhary/">
+              <a href="https://www.linkedin.com/in/bhaveshchoudhary/" target="_blank">
+                <FaLinkedin size={35} />
+              </a>
             </Link>
-            <Link path="/">
+            {/*<Link path="">
               {" "}
               <FaFacebookSquare size={35} />
+            </Link>*/}
+            <Link path="https://twitter.com/yoBhavesh">
+              <a href="https://twitter.com/yoBhavesh" target="_blank">
+                <FaTwitterSquare size={35} />
+              </a>
             </Link>
-            <Link path="/">
-              {" "}
-              <FaTwitterSquare size={35} />
-            </Link>
-            <Link path="/">
+            {/*<Link path="/">
               {" "}
               <FaGooglePlusSquare size={35} />
-            </Link>
-            <Link path="/">
-              {" "}
-              <FaGithubSquare size={35} />
+            </Link>*/}
+            <Link path="https://github.com/proBhavesh">
+              <a href="https://github.com/proBhavesh" target="_blank">
+                <FaGithubSquare size={35} />
+              </a>
             </Link>
           </Box>
           <Box sx={styles.right}>
             <Link path="/" label="Home" />
             <Link path="/" label="Portfolio" />
             <Link path="/" label="Services" />
-            <Link path="/" label="Contact" />
+            <Link path="/contact" label="Contact" />
             <Link path="/" label="FAQ" />
           </Box>
-           <Box sx={styles.right}>
+          <Box sx={styles.right}>
             <Link path="/" label="About" />
             <Link path="/" label="Resources" />
             <Link path="/" label="Support" />
             <Link path="/" label="Marketing" />
           </Box>
 
-
           <Box sx={styles.left}>
             {/*<Logo />*/}
-            <Text as="p" sx={{textAlign:"center"}}>
+            <Text as="p" sx={{ textAlign: "center" }}>
               &copy; {new Date().getFullYear()} All right reserved - Design &
               Developed by Bhavesh Choudhary
             </Text>

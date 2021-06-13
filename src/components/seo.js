@@ -1,11 +1,12 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = "startup landing descriptions",
+  author = "RedQ, Inc",
   meta,
-  title = 'startup landing title',
+  title = "startup landing title",
+  crispScript = 'window.$crisp=[];window.CRISP_WEBSITE_ID="9846ec39-aea0-4960-a0ce-06fe6a20f995";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();',
 }) {
   const metaData = [
     {
@@ -47,6 +48,7 @@ export default function SEO({
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
       ))}
+      <script type="text/javascript">{crispScript}</script>
     </Head>
   );
 }
