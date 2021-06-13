@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "components/Image";
+import Image from "components/image";
 import { Link } from "components/link";
 import { Box, Container, Grid, Button, Input, Heading, Text } from "theme-ui";
 import TelegramImg from "assets/telegram.svg";
