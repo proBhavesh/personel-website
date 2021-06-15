@@ -27,7 +27,7 @@ const Banner = () => {
               {/*<Box as="label" htmlFor="subscribe" variant="styles.srOnly">
                 subscribe
               </Box>*/}
-              {/*<Input
+              {/*<Input;
                 name="subscribe"
                 id="subscribe"
                 placeholder="Subscribe newsletter"
@@ -79,6 +79,7 @@ const styles = {
     gridGap: "0",
   },
   content: {
+    textAlign: ["center", "center", "start"],
     h3: {
       color: "black",
       fontWeight: "bold",

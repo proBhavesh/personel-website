@@ -35,8 +35,11 @@ export default function Footer() {
           }}
         >
           <Box sx={styles.right}>
-             <Link path="https://www.linkedin.com/in/bhaveshchoudhary/">
-              <a href="https://www.linkedin.com/in/bhaveshchoudhary/" target="_blank">
+            <Link path="https://www.linkedin.com/in/bhaveshchoudhary/">
+              <a
+                href="https://www.linkedin.com/in/bhaveshchoudhary/"
+                target="_blank"
+              >
                 <FaLinkedin size={35} />
               </a>
             </Link>
@@ -89,6 +92,7 @@ export default function Footer() {
 const styles = {
   left: {
     display: "flex",
+    flexWrap: "wrap",
     flexDirection: ["column", null, "row"],
     alignItems: "center",
     p: {
