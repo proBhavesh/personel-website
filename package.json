@@ -7,7 +7,7 @@
     "build": "next build",
     "serve": "next start",
     "export": "next export",
-    "postbuild": "node ./src/analytics/generate-sitemap.js"
+    "postbuild": "node ./src/analytics/generate-sitemap-2.js"
   },
   "dependencies": {
     "@next/env": "^10.2.3",
