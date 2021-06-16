@@ -1,4 +1,4 @@
-const sitemap = require("next-sitemap-generator");
+const sitemap = require("nextjs-sitemap-generator");
 const path = require("path");
 
 sitemap({
