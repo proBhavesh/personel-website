@@ -2,16 +2,17 @@ import React from "react";
 import Head from "next/head";
 
 export default function SEO({
-  description = "startup landing descriptions",
-  author = "RedQ, Inc",
+  description = "We help small businesses and startups to develop websites for their business with a team of world-class developers to bring your vision to life",
+  author = "Bhavesh Choudhary",
   meta,
-  title = "startup landing title",
+  title = "Bhavesh Choudhary",
   crispScript = 'window.$crisp=[];window.CRISP_WEBSITE_ID="9846ec39-aea0-4960-a0ce-06fe6a20f995";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();',
 }) {
   const metaData = [
     {
       name: `description`,
-      content: description,
+      content:
+        "We help small businesses and startups to develop websites for their business with a team of world-class developers to bring your vision to life",
     },
     {
       property: `og:title`,
@@ -19,7 +20,8 @@ export default function SEO({
     },
     {
       property: `og:description`,
-      content: description,
+      content:
+        "We help small businesses and startups to develop websites for their business with a team of world-class developers to bring your vision to life",
     },
     {
       property: `og:type`,
@@ -39,7 +41,7 @@ export default function SEO({
     },
     {
       name: `twitter:description`,
-      content: description,
+      content: "We help small businesses and startups to develop websites for their business with a team of world-class developers to bring your vision to life",
     },
   ].concat(meta);
   return (
