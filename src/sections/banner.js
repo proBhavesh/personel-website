@@ -15,10 +15,10 @@ const Banner = () => {
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
-            <Heading as="h3">
-              We create affordable single page websites for small businesses
+            <Heading as="h1">
+              We create affordable websites for small businesses and startups
             </Heading>
-            <Text as="p">
+            <Text as="h2">
               We help small businesses and startups to develop websites for
               their business with a team of world-class developers to bring your
               vision to life
@@ -80,7 +80,7 @@ const styles = {
   },
   content: {
     textAlign: ["center", "center", "start"],
-    h3: {
+    h1: {
       color: "black",
       fontWeight: "bold",
       lineHeight: [1.39],
@@ -90,7 +90,7 @@ const styles = {
       maxWidth: ["100%", null, null, "90%", "100%", "540px"],
       fontSize: [6, null, null, "36px", null, "55px", 9],
     },
-    p: {
+    h2: {
       fontSize: [1, null, null, 2, null, 3],
       lineHeight: ["26px", null, null, null, 2.33],
       color: "text_secondary",
