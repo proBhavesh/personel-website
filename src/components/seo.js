@@ -41,7 +41,8 @@ export default function SEO({
     },
     {
       name: `twitter:description`,
-      content: "We help small businesses and startups to develop websites for their business with a team of world-class developers to bring your vision to life",
+      content:
+        "We help small businesses and startups to develop websites for their business with a team of world-class developers to bring your vision to life",
     },
   ].concat(meta);
   return (
@@ -51,6 +52,11 @@ export default function SEO({
         <meta key={i} name={name} content={content} />
       ))}
       <script type="text/javascript">{crispScript}</script>
+      <meta name="p:domain_verify" content="c78ad6f2d76a6c0274374c7ff7774457" />
+      <meta
+        name="google-site-verification"
+        content="goG2RV72oRydCQaxXvLFzcmQkIyCXwKep7HMAVGG_YY"
+      />
     </Head>
   );
 }
